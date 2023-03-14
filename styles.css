@@ -1,5 +1,10 @@
+html * {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
 h1 {
     color:blue;
+    padding-left: 50px;
 }
 
 .banner {
@@ -56,26 +61,30 @@ h1 {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: white;
-    padding: 20px;
+    padding: 50px;
     gap: 2px;
 }
 
 .grid-item {
     background-color: white;
     border: 1px solid black;
-    padding: 20px;
+    padding: 0px;
     font-size: 30px;
     text-align: center;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .grid-item1 {
     background-color: white;
     border: 1px solid black;
-    padding: 20px;
+    padding: 0px;
     font-size: 30px;
     text-align: center;
     height: 100%;
     width: 100%;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .imgAbout {
     float: right;
@@ -85,7 +94,7 @@ h1 {
     display: grid;
     grid-template-columns: auto auto auto;
     width: 100%;
-    padding: 10px;
+    padding: 50px;
     margin: 10px;
     grid-gap: 10px;
 }
@@ -93,7 +102,7 @@ h1 {
 .imageColumn {
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 50px;
 }
 
 .motoPhoto {
@@ -102,7 +111,7 @@ h1 {
 
 p {
     font-family: 'Times New Roman', Times, serif;
-    padding-left: 10px;
+    padding-left: 60px;
 }
 
 #contactBlock {
@@ -110,7 +119,7 @@ p {
 }
 
 h2 {
-    padding: 5px;
+    padding-left: 50px;
 }
 
 .button1 {
@@ -130,14 +139,20 @@ h2 {
 .aboutVideo {
     width:600px;
     height: 400px;
-    padding-left: 10px;
+    padding: 50px;
 }
 
 .contactBlock {
     margin: 2px;
-    padding: 0px;
+    padding: 50px;
 }
 
 .highlight {
     color: blue;
+}
+
+.gridP {
+    padding: 0px;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
